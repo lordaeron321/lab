@@ -2,6 +2,7 @@
 This module provides basic arithmetic operations.
 """
 
+
 def add(a: int, b: int) -> int:
     """
     Adds two integers.
@@ -14,6 +15,7 @@ def add(a: int, b: int) -> int:
         int: The sum of the two integers.
     """
     return a + b
+
 
 def subtract(a: int, b: int) -> int:
     """
@@ -28,6 +30,7 @@ def subtract(a: int, b: int) -> int:
     """
     return a - b
 
+
 def multiply(a: int, b: int) -> int:
     """
     Multiplies two integers.
@@ -40,6 +43,7 @@ def multiply(a: int, b: int) -> int:
         int: The product of the two integers.
     """
     return a * b
+
 
 def divide(a: int, b: int) -> float:
     """
