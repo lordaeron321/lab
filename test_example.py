@@ -18,9 +18,12 @@ def test_subtract (a , b , expected ):
 def test_multiply (a , b , expected ):
     result = utils . multiply (a , b )
     assert result == expected
-@pytest . mark . parametrize ("a, b, expected ", [(1 , 2 , 0.5 ) 
-                                                  , (3 , 4 , 0.75 ) , (4 , 5 , 0.8 )])
+
+@pytest . mark . parametrize ("a, b, expected ", [(1 , 2 , 0.5 ) , (3 ,
+4 , 0.75 ) , (4 , 5 , 0.8 )])
+
 def test_divide (a , b , expected ):
     result = utils . divide (a , b )
     assert result == expected
+                                                  
 
